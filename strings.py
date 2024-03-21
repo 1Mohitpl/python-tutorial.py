@@ -4,9 +4,11 @@
 # print(course.upper())
 
 name = input("Enter an your name :  ")
-age = input ("Enter your age: ")
+age =  int (input ("Enter your age: "))
 print(type(age))
-print( "My name is "  + name + " " + " and my age is " + age)
+
+print(age)
+
 
 
 
