@@ -36,10 +36,13 @@ print(order.format(quantity,drink_type))    #format function to use add variable
 
 
 
+tea_types = "Lemon tea" , "Masala tea" ,"Ginger tea"
+
+print(",". join (tea_types))      #join function to use to add values in the list 
 
 
-
-
+range(10)
+print(range(10))
 
 
 
