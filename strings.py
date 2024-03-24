@@ -14,37 +14,47 @@
 
 
 
-chai = "Masala chai"
-print(chai.find("chai"))             #find function to determine the postioin of the strings
+# chai = "Masala chai"
+# print(chai.find("chai"))             #find function to determine the postioin of the strings
  
 
 
-name = "mohit kumar paul"
-print(name.count("m")) 
-                                       #Count function to use to determine the number of repeating char, numbers 
-word = "562125543565"
-print(word.count("6"))           
+# name = "mohit kumar paul"
+# print(name.count("m")) 
+#                                        #Count function to use to determine the number of repeating char, numbers 
+# word = "562125543565"
+# print(word.count("6"))           
 
 
 
 
-drink_type = "soft drinks"
-quantity = "2"
-order = "I ordered {} bottels of {}"     #{} => its an placeholder to carry variables 
+# drink_type = "soft drinks"
+# quantity = "2"
+# order = "I ordered {} bottels of {}"     #{} => its an placeholder to carry variables 
 
-print(order.format(quantity,drink_type))    #format function to use add variables
-
-
-
-tea_types = "Lemon tea" , "Masala tea" ,"Ginger tea"
-
-print(",". join (tea_types))      #join function to use to add values in the list 
+# print(order.format(quantity,drink_type))    #format function to use add variables
 
 
-range(10)
-print(range(10))
+
+# tea_types = "Lemon tea" , "Masala tea" ,"Ginger tea"
+
+# print(",". join (tea_types))      #join function to use to add values in the list 
 
 
+# range(10)
+# print(range(10))
+
+age = int (input ("Enter your age"))   #age Group categorization problem
+
+
+if   age <13:
+    print("you are underEighteen")
+elif  age <20:
+    print("You are an Tenneger") 
+elif  age <60 :
+    print("you are Adult")
+else :
+    print("senior")           
 
 
 
