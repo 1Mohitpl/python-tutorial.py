@@ -56,17 +56,24 @@
 # else :
 #     print("senior") 
 
-password = input("put it here password : ")
+# password = input("put it here password : ")
 
-if len (password) <6 :
-    strenght = "weak"                         #password strenght checker
-elif len(password) <=10:
-    strenght = "medium"
+# if len (password) <6 :
+#     strenght = "weak"                         #password strenght checker
+# elif len(password) <=10:
+#     strenght = "medium"
+# else: 
+#     strenght = "Strong"
+# print("Your password strenght is very :" ,strenght)
+
+
+year = int (input ("Enter an year : "))
+
+if (year % 400 == 0) or (year % 4 == 0) and (year % 100 !=0):
+    print("Given year is Leap year")                                 #check the year is leap year or not 
+
 else: 
-    strenght = "Strong"
-print("Your password strenght is very :" ,strenght)
-
-
+    print("Given year is not a Leap year")
 
 
 
