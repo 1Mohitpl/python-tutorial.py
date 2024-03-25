@@ -44,17 +44,27 @@
 # range(10)
 # print(range(10))
 
-age = int (input ("Enter your age"))   #age Group categorization problem
+# age = int (input ("Enter your age"))   #age Group categorization problem
 
 
-if   age <13:
-    print("you are underEighteen")
-elif  age <20:
-    print("You are an Tenneger") 
-elif  age <60 :
-    print("you are Adult")
-else :
-    print("senior")           
+# if   age <13:
+#     print("you are underEighteen")
+# elif  age <20:
+#     print("You are an Tenneger") 
+# elif  age <60 :
+#     print("you are Adult")
+# else :
+#     print("senior") 
+
+password = input("put it here password : ")
+
+if len (password) <6 :
+    strenght = "weak"                         #password strenght checker
+elif len(password) <=10:
+    strenght = "medium"
+else: 
+    strenght = "Strong"
+print("Your password strenght is very :" ,strenght)
 
 
 
