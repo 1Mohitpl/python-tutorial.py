@@ -1,7 +1,9 @@
 class Car:
+    total_car  = 0
     def __init__(self, Brand, Model):
         self.__Brand = Brand
         self.Model = Model
+        Car.total_car +=1
 
 
 
@@ -45,3 +47,22 @@ print(myNew_car.get_brand())
 
 advanture = Car("Tata", "safari")
 print(advanture.fuel_type())
+print(Car.total_car)
+
+class Battery:
+    def battery_info(self):
+        return "this is battery"
+
+
+
+class Engine:
+    def Engine_info(self):
+        return "this is engine"
+
+class ElectricCarTwo (Battery, Engine, Car):
+    pass
+
+
+myAnotherCar = ElectricCarTwo("Tata", "nexon")
+print(myAnotherCar.Engine_info())
+print(myAnotherCar.battery_info())
