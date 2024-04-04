@@ -8,3 +8,8 @@ def timer (func):
         print(f"{func.__name__} ran in {end-start} time")
         return result
     return warpper
+@timer
+def example_function (n):
+    time.sleep(n)
+
+example_function(2)
