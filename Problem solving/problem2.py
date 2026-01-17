@@ -15,6 +15,7 @@ marks = int(input("Enter your score: "))
 
 if marks < 0 or marks > 100:
     print("Invalid score")
+    exit()
 
 elif marks >= 90 and marks <= 100:
     print("A")
